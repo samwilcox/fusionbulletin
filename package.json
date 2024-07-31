@@ -1,0 +1,30 @@
+{
+  "name": "fusionbulletin",
+  "version": "0.1.0",
+  "description": "Bulletin board written in NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samwilcox/fusionbulletin.git"
+  },
+  "author": "Sam Wilcox",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/samwilcox/fusionbulletin/issues"
+  },
+  "homepage": "https://github.com/samwilcox/fusionbulletin#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "i18next": "^23.12.2",
+    "i18next-express-middleware": "^2.0.0",
+    "i18next-fs-backend": "^2.3.1",
+    "mongodb": "^6.8.0",
+    "mongoose": "^8.5.1",
+    "mysql2": "^3.11.0"
+  }
+}
